@@ -1,10 +1,10 @@
 {
   "name": "dsh-claude-style-ru",
-  "description": "Fork of dsh-claude-style (Claude Code Desktop theme for DeepSeek Harness) with Russian localization",
-  "version": "0.10.3",
+  "description": "Fork of dsh-claude-style (Claude Code Desktop theme for DeepSeek Harness) with Russian localization; DeepSeek brand by default",
+  "version": "0.10.4",
   "type": "module",
   "main": "host/index.js",
-  "icon": "lib/claude-mark.svg",
+  "icon": "lib/deepseek-mark.svg",
   "scripts": {
     "build": "node scripts/build.mjs",
     "probe": "node scripts/probe.cjs",

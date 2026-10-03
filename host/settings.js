@@ -43,7 +43,7 @@ function entryIdOf(ctx) {
 
 /** Defaults, mirrored by the browser half's constants. */
 const PREFS_DEFAULT = Object.freeze({
-  brand: 'claude',
+  brand: 'deepseek',
   motion: 'system',
   collapseFooter: true,
   autoPopover: 'all',

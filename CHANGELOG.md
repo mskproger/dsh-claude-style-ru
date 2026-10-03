@@ -2,6 +2,20 @@
 
 All notable changes to `dsh-claude-style` are documented here, newest first.
 
+## [0.10.4] - 2026-10-03
+
+[English](#en-0.10.4) | [Русский](#ru-0.10.4)
+
+<h3 id="en-0.10.4">Fork changes (dsh-claude-style-ru)</h3>
+
+- **The DeepSeek brand is now the default**: out of the box the sidebar and the home page show DeepSeek's whale, the blue palette and Deepy instead of the Claude starburst, and the sidebar wordmark reads "DeepSeek Work" (the host's "DeepSeek" lockup with "Work" appended as a mask). The Claude brand stays selectable in the plugin's settings.
+- **The plugin icon is now the DeepSeek whale** (`lib/deepseek-mark.svg`), replacing the Claude starburst.
+
+<h3 id="ru-0.10.4">Изменения форка (dsh-claude-style-ru)</h3>
+
+- **Бренд DeepSeek теперь по умолчанию**: сразу после установки сайдбар и главная страница показывают кита DeepSeek, синюю палитру и Deepy вместо «звёздочки» Claude, а подпись в сайдбаре — «DeepSeek Work» (хостовый лок-ап «DeepSeek» с дописанным «Work» в виде маски). Бренд Claude остаётся доступен в настройках плагина.
+- **Иконка плагина — кит DeepSeek** (`lib/deepseek-mark.svg`) вместо «звёздочки» Claude.
+
 ## [0.10.3] - 2026-10-01
 
 [中文](#cn-0.10.3) | [English](#en-0.10.3)
