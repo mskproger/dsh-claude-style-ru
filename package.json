@@ -1,0 +1,77 @@
+{
+  "name": "dsh-claude-style-ru",
+  "description": "Fork of dsh-claude-style (Claude Code Desktop theme for DeepSeek Harness) with Russian localization",
+  "version": "0.10.3",
+  "type": "module",
+  "main": "host/index.js",
+  "icon": "lib/claude-mark.svg",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "probe": "node scripts/probe.cjs",
+    "smoke": "node scripts/smoke.cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "exports": {
+    ".": "./host/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*": "./locale/*"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.1.7"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "host",
+    "lib",
+    "locale",
+    "skin.json",
+    "cordis.patch.yml",
+    "docs/STYLE.md",
+    "docs/architecture.md",
+    "CHANGELOG.md",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "fonts/JetBrainsMonoVariable.ttf",
+    "fonts/JetBrainsMonoItalicVariable.ttf",
+    "fonts/OFL.txt",
+    "fonts/AUTHORS.txt"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "web-ui",
+    "theme",
+    "claude",
+    "claude-code",
+    "desktop-theme",
+    "anthropic",
+    "editorial",
+    "russian",
+    "ru"
+  ],
+  "license": "MIT",
+  "author": "Nwflower",
+  "contributors": [
+    "mskproger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskproger/dsh-claude-style-ru.git"
+  },
+  "homepage": "https://github.com/mskproger/dsh-claude-style-ru#readme",
+  "bugs": {
+    "url": "https://github.com/mskproger/dsh-claude-style-ru/issues"
+  }
+}
