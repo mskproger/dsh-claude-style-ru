@@ -4,705 +4,880 @@
   "ui": {
     "fallbackLabel": {
       "zh": "选择模型",
-      "en": "Select model"
+      "en": "Select model",
+      "ru": "Выбрать модель"
     },
     "triggerLabel": {
       "zh": "选择模型，当前 {model}",
-      "en": "Select model, currently {model}"
+      "en": "Select model, currently {model}",
+      "ru": "Выбрать модель, сейчас {model}"
     },
     "loading": {
       "zh": "正在加载模型…",
-      "en": "Loading models…"
+      "en": "Loading models…",
+      "ru": "Загрузка моделей…"
     },
     "empty": {
       "zh": "没有可用的模型。",
-      "en": "No models available."
+      "en": "No models available.",
+      "ru": "Нет доступных моделей."
     },
     "effortLabel": {
       "zh": "推理等级",
-      "en": "Reasoning effort"
+      "en": "Reasoning effort",
+      "ru": "Уровень рассуждения"
     },
     "effortFaster": {
       "zh": "更快",
-      "en": "Faster"
+      "en": "Faster",
+      "ru": "Быстрее"
     },
     "effortSmarter": {
       "zh": "更强",
-      "en": "Smarter"
+      "en": "Smarter",
+      "ru": "Умнее"
     },
     "moreLabel": {
       "zh": "更多模型",
-      "en": "More models"
+      "en": "More models",
+      "ru": "Больше моделей"
     },
     "archiveActive": {
       "zh": "进行中",
-      "en": "Active"
+      "en": "Active",
+      "ru": "Активные"
     },
     "archiveArchived": {
       "zh": "已归档",
-      "en": "Archived"
+      "en": "Archived",
+      "ru": "В архиве"
     },
     "archiveDelete": {
       "zh": "删除会话",
-      "en": "Delete conversation"
+      "en": "Delete conversation",
+      "ru": "Удалить диалог"
     },
     "archiveRestore": {
       "zh": "取消归档",
-      "en": "Unarchive conversation"
+      "en": "Unarchive conversation",
+      "ru": "Восстановить из архива"
     },
     "archiveEmpty": {
       "zh": "没有已归档的会话",
-      "en": "No archived conversations"
+      "en": "No archived conversations",
+      "ru": "В архиве нет диалогов"
     },
     "archiveLoading": {
       "zh": "正在加载…",
-      "en": "Loading…"
+      "en": "Loading…",
+      "ru": "Загрузка…"
     },
     "archiveJustNow": {
       "zh": "刚刚",
-      "en": "Just now"
+      "en": "Just now",
+      "ru": "Только что"
     },
     "archiveMinutes": {
       "zh": "{count} 分钟",
-      "en": "{count} min"
+      "en": "{count} min",
+      "ru": "{count} мин"
     },
     "archiveHours": {
       "zh": "{count} 小时",
-      "en": "{count} h"
+      "en": "{count} h",
+      "ru": "{count} ч"
     },
     "archiveDays": {
       "zh": "{count} 天",
-      "en": "{count} d"
+      "en": "{count} d",
+      "ru": "{count} дн."
     },
     "archiveDeleteFailed": {
       "zh": "删除失败：{detail}",
-      "en": "Delete failed: {detail}"
+      "en": "Delete failed: {detail}",
+      "ru": "Не удалось удалить: {detail}"
     },
     "archiveDeleteOpen": {
       "zh": "会话仍被本应用占用，重启后再删除",
-      "en": "The conversation is still held open by this app; restart it, then delete again"
+      "en": "The conversation is still held open by this app; restart it, then delete again",
+      "ru": "Диалог всё ещё открыт этим приложением; перезапустите его и удалите ещё раз"
     },
     "searchPlaceholder": {
       "zh": "搜索",
-      "en": "Search"
+      "en": "Search",
+      "ru": "Поиск"
     },
     "searchClose": {
       "zh": "关闭",
-      "en": "Close"
+      "en": "Close",
+      "ru": "Закрыть"
     },
     "searchFilterHint": {
       "zh": "切换分类",
-      "en": "Filters"
+      "en": "Filters",
+      "ru": "Фильтры"
     },
     "searchOpenHint": {
       "zh": "打开",
-      "en": "Open"
+      "en": "Open",
+      "ru": "Открыть"
     },
     "searchFilterAll": {
       "zh": "全部",
-      "en": "All"
+      "en": "All",
+      "ru": "Все"
     },
     "searchFilterSessions": {
       "zh": "会话",
-      "en": "Sessions"
+      "en": "Sessions",
+      "ru": "Сессии"
     },
     "searchFilterProjects": {
       "zh": "项目",
-      "en": "Projects"
+      "en": "Projects",
+      "ru": "Проекты"
     },
     "searchFilterPlugins": {
       "zh": "插件",
-      "en": "Plugins"
+      "en": "Plugins",
+      "ru": "Плагины"
     },
     "searchFilterSkills": {
       "zh": "Skill",
-      "en": "Skills"
+      "en": "Skills",
+      "ru": "Навыки"
     },
     "searchFilterShortcuts": {
       "zh": "快捷键",
-      "en": "Shortcuts"
+      "en": "Shortcuts",
+      "ru": "Сочетания клавиш"
     },
     "searchRecents": {
       "zh": "最近",
-      "en": "Recents"
+      "en": "Recents",
+      "ru": "Недавние"
     },
     "searchActions": {
       "zh": "操作",
-      "en": "Actions"
+      "en": "Actions",
+      "ru": "Действия"
     },
     "searchSessions": {
       "zh": "会话",
-      "en": "Sessions"
+      "en": "Sessions",
+      "ru": "Сессии"
     },
     "searchProjects": {
       "zh": "项目",
-      "en": "Projects"
+      "en": "Projects",
+      "ru": "Проекты"
     },
     "searchPlugins": {
       "zh": "插件",
-      "en": "Plugins"
+      "en": "Plugins",
+      "ru": "Плагины"
     },
     "searchSkills": {
       "zh": "Skill",
-      "en": "Skills"
+      "en": "Skills",
+      "ru": "Навыки"
     },
     "searchShortcuts": {
       "zh": "快捷键",
-      "en": "Shortcuts"
+      "en": "Shortcuts",
+      "ru": "Сочетания клавиш"
     },
     "searchActionNewSession": {
       "zh": "新会话",
-      "en": "New session"
+      "en": "New session",
+      "ru": "Новая сессия"
     },
     "searchActionPlugins": {
       "zh": "插件",
-      "en": "Plugins"
+      "en": "Plugins",
+      "ru": "Плагины"
     },
     "searchActionSettings": {
       "zh": "设置",
-      "en": "Settings"
+      "en": "Settings",
+      "ru": "Настройки"
     },
     "searchActionShortcuts": {
       "zh": "键盘快捷键",
-      "en": "Keyboard shortcuts"
+      "en": "Keyboard shortcuts",
+      "ru": "Сочетания клавиш"
     },
     "searchLoading": {
       "zh": "正在搜索…",
-      "en": "Searching…"
+      "en": "Searching…",
+      "ru": "Поиск…"
     },
     "searchEmpty": {
       "zh": "没有匹配的结果",
-      "en": "No results"
+      "en": "No results",
+      "ru": "Ничего не найдено"
     },
     "turnStatusTokens": {
       "zh": "{count} tokens",
-      "en": "{count} tokens"
+      "en": "{count} tokens",
+      "ru": "{count} токенов"
     },
     "turnStatusWaiting": {
       "zh": "等待模型…",
-      "en": "Waiting for the model…"
+      "en": "Waiting for the model…",
+      "ru": "Ожидание модели…"
     },
     "turnStatusThinking": {
       "zh": "思考中…",
-      "en": "Thinking…"
+      "en": "Thinking…",
+      "ru": "Обдумывает…"
     },
     "turnStatusThought": {
       "zh": "思考了 {duration}",
-      "en": "Thought for {duration}"
+      "en": "Thought for {duration}",
+      "ru": "Обдумывал {duration}"
     },
     "turnStatusWriting": {
       "zh": "输出中…",
-      "en": "Writing…"
+      "en": "Writing…",
+      "ru": "Пишет…"
     },
     "turnStatusToolCall": {
       "zh": "准备调用工具…",
-      "en": "Preparing a tool call…"
+      "en": "Preparing a tool call…",
+      "ru": "Готовит вызов инструмента…"
     },
     "turnStatusTools": {
       "zh": "运行工具中…",
-      "en": "Running tools…"
+      "en": "Running tools…",
+      "ru": "Выполняет инструменты…"
     },
     "homeTabOverview": {
       "zh": "概览",
-      "en": "Overview"
+      "en": "Overview",
+      "ru": "Обзор"
     },
     "homeTabModels": {
       "zh": "模型",
-      "en": "Models"
+      "en": "Models",
+      "ru": "Модели"
     },
     "homeRangeAll": {
       "zh": "全部",
-      "en": "All"
+      "en": "All",
+      "ru": "Всё"
     },
     "homeRange30d": {
       "zh": "30 天",
-      "en": "30d"
+      "en": "30d",
+      "ru": "30 дн."
     },
     "homeRange7d": {
       "zh": "7 天",
-      "en": "7d"
+      "en": "7d",
+      "ru": "7 дн."
     },
     "homePeakHour": {
       "zh": "高峰时段",
-      "en": "Peak hour"
+      "en": "Peak hour",
+      "ru": "Пиковый час"
     },
     "homeHourAm": {
       "zh": "上午 {hour} 点",
-      "en": "{hour} AM"
+      "en": "{hour} AM",
+      "ru": "{hour} утра"
     },
     "homeHourPm": {
       "zh": "下午 {hour} 点",
-      "en": "{hour} PM"
+      "en": "{hour} PM",
+      "ru": "{hour} вечера"
     },
     "homeFunBook": {
       "zh": "你的Token用量相当于{count}本{book}。",
-      "en": "You've used ~{count}× the tokens in {book}."
+      "en": "You've used ~{count}× the tokens in {book}.",
+      "ru": "По объёму это ~{count}× {book}."
     },
     "homeBookAnimalFarm": {
       "zh": "《动物农场》",
-      "en": "Animal Farm"
+      "en": "Animal Farm",
+      "ru": "«Скотный двор»"
     },
     "homeBookGatsby": {
       "zh": "《了不起的盖茨比》",
-      "en": "The Great Gatsby"
+      "en": "The Great Gatsby",
+      "ru": "«Великий Гэтсби»"
     },
     "homeBookPhilosophersStone": {
       "zh": "《哈利·波特与魔法石》",
-      "en": "Harry Potter and the Philosopher's Stone"
+      "en": "Harry Potter and the Philosopher's Stone",
+      "ru": "«Гарри Поттер и философский камень»"
     },
     "homeBook1984": {
       "zh": "《一九八四》",
-      "en": "Nineteen Eighty-Four"
+      "en": "Nineteen Eighty-Four",
+      "ru": "«1984»"
     },
     "homeBookHobbit": {
       "zh": "《霍比特人》",
-      "en": "The Hobbit"
+      "en": "The Hobbit",
+      "ru": "«Хоббит»"
     },
     "homeBookPride": {
       "zh": "《傲慢与偏见》",
-      "en": "Pride and Prejudice"
+      "en": "Pride and Prejudice",
+      "ru": "«Гордость и предубеждение»"
     },
     "homeBookMobyDick": {
       "zh": "《白鲸》",
-      "en": "Moby-Dick"
+      "en": "Moby-Dick",
+      "ru": "«Моби Дик»"
     },
     "homeBookLordOfTheRings": {
       "zh": "《魔戒》",
-      "en": "The Lord of the Rings"
+      "en": "The Lord of the Rings",
+      "ru": "«Властелин колец»"
     },
     "homeBookWarAndPeace": {
       "zh": "《战争与和平》",
-      "en": "War and Peace"
+      "en": "War and Peace",
+      "ru": "«Война и мир»"
     },
     "homeBookHarryPotter": {
       "zh": "《哈利·波特》全集",
-      "en": "the whole Harry Potter series"
+      "en": "the whole Harry Potter series",
+      "ru": "вся серия о Гарри Поттере"
     },
     "homeBookLostTime": {
       "zh": "《追忆似水年华》",
-      "en": "In Search of Lost Time"
+      "en": "In Search of Lost Time",
+      "ru": "«В поисках утраченного времени»"
     },
     "homeBookTaoTeChing": {
       "zh": "《道德经》",
-      "en": "Tao Te Ching"
+      "en": "Tao Te Ching",
+      "ru": "«Дао дэ цзин»"
     },
     "homeBookAlice": {
       "zh": "《爱丽丝漫游奇境》",
-      "en": "Alice's Adventures in Wonderland"
+      "en": "Alice's Adventures in Wonderland",
+      "ru": "«Алиса в Стране чудес»"
     },
     "homeBookChristmasCarol": {
       "zh": "《圣诞颂歌》",
-      "en": "A Christmas Carol"
+      "en": "A Christmas Carol",
+      "ru": "«Рождественская песнь»"
     },
     "homeBookFrankenstein": {
       "zh": "《弗兰肯斯坦》",
-      "en": "Frankenstein"
+      "en": "Frankenstein",
+      "ru": "«Франкенштейн»"
     },
     "homeBookDorianGray": {
       "zh": "《道林·格雷的画像》",
-      "en": "The Picture of Dorian Gray"
+      "en": "The Picture of Dorian Gray",
+      "ru": "«Портрет Дориана Грея»"
     },
     "homeBookToLive": {
       "zh": "《活着》",
-      "en": "To Live"
+      "en": "To Live",
+      "ru": "«Жить»"
     },
     "homeBookSherlockHolmes": {
       "zh": "《福尔摩斯冒险史》",
-      "en": "The Adventures of Sherlock Holmes"
+      "en": "The Adventures of Sherlock Holmes",
+      "ru": "«Приключения Шерлока Холмса»"
     },
     "homeBookHuckleberryFinn": {
       "zh": "《哈克贝利·费恩历险记》",
-      "en": "Adventures of Huckleberry Finn"
+      "en": "Adventures of Huckleberry Finn",
+      "ru": "«Приключения Гекльберри Финна»"
     },
     "homeBookThreeBody": {
       "zh": "《三体》",
-      "en": "The Three-Body Problem"
+      "en": "The Three-Body Problem",
+      "ru": "«Задача трёх тел»"
     },
     "homeBookDracula": {
       "zh": "《德古拉》",
-      "en": "Dracula"
+      "en": "Dracula",
+      "ru": "«Дракула»"
     },
     "homeBookJaneEyre": {
       "zh": "《简·爱》",
-      "en": "Jane Eyre"
+      "en": "Jane Eyre",
+      "ru": "«Джейн Эйр»"
     },
     "homeBookDarkForest": {
       "zh": "《三体Ⅱ·黑暗森林》",
-      "en": "The Dark Forest"
+      "en": "The Dark Forest",
+      "ru": "«Тёмный лес»"
     },
     "homeBookDeathsEnd": {
       "zh": "《三体Ⅲ·死神永生》",
-      "en": "Death's End"
+      "en": "Death's End",
+      "ru": "«Вечная жизнь Смерти»"
     },
     "homeBookThreeKingdoms": {
       "zh": "《三国演义》",
-      "en": "Romance of the Three Kingdoms"
+      "en": "Romance of the Three Kingdoms",
+      "ru": "«Троецарствие»"
     },
     "homeBookJourneyWest": {
       "zh": "《西游记》",
-      "en": "Journey to the West"
+      "en": "Journey to the West",
+      "ru": "«Путешествие на Запад»"
     },
     "homeBookRedChamber": {
       "zh": "《红楼梦》",
-      "en": "Dream of the Red Chamber"
+      "en": "Dream of the Red Chamber",
+      "ru": "«Сон в красном тереме»"
     },
     "homeBookWaterMargin": {
       "zh": "《水浒传》",
-      "en": "Water Margin"
+      "en": "Water Margin",
+      "ru": "«Речные заводи»"
     },
     "homeBookOrdinaryWorld": {
       "zh": "《平凡的世界》",
-      "en": "Ordinary World"
+      "en": "Ordinary World",
+      "ru": "«Обыкновенный мир»"
     },
     "homeBookYellowWallpaper": {
       "zh": "《黄色壁纸》",
-      "en": "The Yellow Wallpaper"
+      "en": "The Yellow Wallpaper",
+      "ru": "«Жёлтые обои»"
     },
     "homeBookMetamorphosis": {
       "zh": "《变形记》",
-      "en": "Metamorphosis"
+      "en": "Metamorphosis",
+      "ru": "«Превращение»"
     },
     "homeBookJekyllAndHyde": {
       "zh": "《化身博士》",
-      "en": "The Strange Case of Dr Jekyll and Mr Hyde"
+      "en": "The Strange Case of Dr Jekyll and Mr Hyde",
+      "ru": "«Странная история доктора Джекила и мистера Хайда»"
     },
     "homeBookCallOfTheWild": {
       "zh": "《野性的呼唤》",
-      "en": "The Call of the Wild"
+      "en": "The Call of the Wild",
+      "ru": "«Зов предков»"
     },
     "homeBookTimeMachine": {
       "zh": "《时间机器》",
-      "en": "The Time Machine"
+      "en": "The Time Machine",
+      "ru": "«Машина времени»"
     },
     "homeBookWizardOfOz": {
       "zh": "《绿野仙踪》",
-      "en": "The Wonderful Wizard of Oz"
+      "en": "The Wonderful Wizard of Oz",
+      "ru": "«Удивительный волшебник из страны Оз»"
     },
     "homeBookHeartOfDarkness": {
       "zh": "《黑暗之心》",
-      "en": "Heart of Darkness"
+      "en": "Heart of Darkness",
+      "ru": "«Сердце тьмы»"
     },
     "homeBookFaust": {
       "zh": "《浮士德》",
-      "en": "Faust"
+      "en": "Faust",
+      "ru": "«Фауст»"
     },
     "homeBookTurnOfTheScrew": {
       "zh": "《螺丝在拧紧》",
-      "en": "The Turn of the Screw"
+      "en": "The Turn of the Screw",
+      "ru": "«Поворот винта»"
     },
     "homeBookAesopsFables": {
       "zh": "《伊索寓言》",
-      "en": "Aesop's Fables"
+      "en": "Aesop's Fables",
+      "ru": "«Басни Эзопа»"
     },
     "homeBookPeterPan": {
       "zh": "《彼得·潘》",
-      "en": "Peter Pan"
+      "en": "Peter Pan",
+      "ru": "«Питер Пэн»"
     },
     "homeBookPrince": {
       "zh": "《君主论》",
-      "en": "The Prince"
+      "en": "The Prince",
+      "ru": "«Государь»"
     },
     "homeBookInvisibleMan": {
       "zh": "《隐形人》",
-      "en": "The Invisible Man"
+      "en": "The Invisible Man",
+      "ru": "«Человек-невидимка»"
     },
     "homeBookAndersensFairyTales": {
       "zh": "《安徒生童话》",
-      "en": "Andersen's Fairy Tales"
+      "en": "Andersen's Fairy Tales",
+      "ru": "«Сказки Андерсена»"
     },
     "homeBookWarOfTheWorlds": {
       "zh": "《世界大战》",
-      "en": "The War of the Worlds"
+      "en": "The War of the Worlds",
+      "ru": "«Война миров»"
     },
     "homeBookBeyondGoodAndEvil": {
       "zh": "《善恶的彼岸》",
-      "en": "Beyond Good and Evil"
+      "en": "Beyond Good and Evil",
+      "ru": "«По ту сторону добра и зла»"
     },
     "homeBookWhiteFang": {
       "zh": "《白牙》",
-      "en": "White Fang"
+      "en": "White Fang",
+      "ru": "«Белый Клык»"
     },
     "homeBookMeditations": {
       "zh": "《沉思录》",
-      "en": "Meditations"
+      "en": "Meditations",
+      "ru": "«Размышления»"
     },
     "homeBookGrimmsFairyTales": {
       "zh": "《格林童话》",
-      "en": "Grimms' Fairy Tales"
+      "en": "Grimms' Fairy Tales",
+      "ru": "«Сказки братьев Гримм»"
     },
     "homeBookGulliversTravels": {
       "zh": "《格列佛游记》",
-      "en": "Gulliver's Travels"
+      "en": "Gulliver's Travels",
+      "ru": "«Путешествия Гулливера»"
     },
     "homeBookWalden": {
       "zh": "《瓦尔登湖》",
-      "en": "Walden"
+      "en": "Walden",
+      "ru": "«Уолден»"
     },
     "homeBookRobinsonCrusoe": {
       "zh": "《鲁滨逊漂流记》",
-      "en": "Robinson Crusoe"
+      "en": "Robinson Crusoe",
+      "ru": "«Робинзон Крузо»"
     },
     "homeBookDivineComedy": {
       "zh": "《神曲》",
-      "en": "The Divine Comedy"
+      "en": "The Divine Comedy",
+      "ru": "«Божественная комедия»"
     },
     "homeBookMadameBovary": {
       "zh": "《包法利夫人》",
-      "en": "Madame Bovary"
+      "en": "Madame Bovary",
+      "ru": "«Госпожа Бовари»"
     },
     "homeBookZarathustra": {
       "zh": "《查拉图斯特拉如是说》",
-      "en": "Thus Spoke Zarathustra"
+      "en": "Thus Spoke Zarathustra",
+      "ru": "«Так говорил Заратустра»"
     },
     "homeBookOdyssey": {
       "zh": "《奥德赛》",
-      "en": "The Odyssey"
+      "en": "The Odyssey",
+      "ru": "«Одиссея»"
     },
     "homeBookTaleOfTwoCities": {
       "zh": "《双城记》",
-      "en": "A Tale of Two Cities"
+      "en": "A Tale of Two Cities",
+      "ru": "«Повесть о двух городах»"
     },
     "homeBookGreatExpectations": {
       "zh": "《远大前程》",
-      "en": "Great Expectations"
+      "en": "Great Expectations",
+      "ru": "«Большие надежды»"
     },
     "homeBookRepublic": {
       "zh": "《理想国》",
-      "en": "The Republic"
+      "en": "The Republic",
+      "ru": "«Государство»"
     },
     "homeBookCrimeAndPunishment": {
       "zh": "《罪与罚》",
-      "en": "Crime and Punishment"
+      "en": "Crime and Punishment",
+      "ru": "«Преступление и наказание»"
     },
     "homeBookLeviathan": {
       "zh": "《利维坦》",
-      "en": "Leviathan"
+      "en": "Leviathan",
+      "ru": "«Левиафан»"
     },
     "homeBookAnnaKarenina": {
       "zh": "《安娜·卡列尼娜》",
-      "en": "Anna Karenina"
+      "en": "Anna Karenina",
+      "ru": "«Анна Каренина»"
     },
     "homeBookBrothersKaramazov": {
       "zh": "《卡拉马佐夫兄弟》",
-      "en": "The Brothers Karamazov"
+      "en": "The Brothers Karamazov",
+      "ru": "«Братья Карамазовы»"
     },
     "homeBookDonQuixote": {
       "zh": "《堂吉诃德》",
-      "en": "Don Quixote"
+      "en": "Don Quixote",
+      "ru": "«Дон Кихот»"
     },
     "homeBookCountOfMonteCristo": {
       "zh": "《基督山伯爵》",
-      "en": "The Count of Monte Cristo"
+      "en": "The Count of Monte Cristo",
+      "ru": "«Граф Монте-Кристо»"
     },
     "homeBookLesMiserables": {
       "zh": "《悲惨世界》",
-      "en": "Les Misérables"
+      "en": "Les Misérables",
+      "ru": "«Отверженные»"
     },
     "homeModelSessions": {
       "zh": "{count} 个会话",
-      "en": "{count} sessions"
+      "en": "{count} sessions",
+      "ru": "{count} сессий"
     },
     "homeModelsEmpty": {
       "zh": "暂无模型数据",
-      "en": "No model data yet"
+      "en": "No model data yet",
+      "ru": "Данных о моделях пока нет"
     },
     "homeModelsMore": {
       "zh": "再显示 {count} 个",
-      "en": "Show {count} more"
+      "en": "Show {count} more",
+      "ru": "Показать ещё {count}"
     },
     "homeModelsLess": {
       "zh": "收起",
-      "en": "Show less"
+      "en": "Show less",
+      "ru": "Свернуть"
     },
     "homeTokens": {
       "zh": "Token 总量",
-      "en": "Total tokens"
+      "en": "Total tokens",
+      "ru": "Всего токенов"
     },
     "homeCalls": {
       "zh": "消息数",
-      "en": "Messages"
+      "en": "Messages",
+      "ru": "Сообщения"
     },
     "homeSessions": {
       "zh": "会话数",
-      "en": "Sessions"
+      "en": "Sessions",
+      "ru": "Сессии"
     },
     "homeActiveDays": {
       "zh": "活跃天数",
-      "en": "Active days"
+      "en": "Active days",
+      "ru": "Активные дни"
     },
     "homeTopModel": {
       "zh": "最常用模型",
-      "en": "Favorite model"
+      "en": "Favorite model",
+      "ru": "Любимая модель"
     },
     "homeHeatTipTokens": {
       "zh": "{date} — {tokens} Token",
-      "en": "{date} — {tokens} tokens"
+      "en": "{date} — {tokens} tokens",
+      "ru": "{date} — {tokens} токенов"
     },
     "contextTotalTime": {
       "zh": "总用时",
-      "en": "Total time"
+      "en": "Total time",
+      "ru": "Общее время"
     }
   },
   "settings": {
     "title": {
       "zh": "Claude Style",
-      "en": "Claude Style"
+      "en": "Claude Style",
+      "ru": "Claude Style"
     },
     "brandTitle": {
       "zh": "修改品牌标识",
-      "en": "Brand mark"
+      "en": "Brand mark",
+      "ru": "Фирменный знак"
     },
     "brandDesc": {
       "zh": "侧栏与首页显示的品牌标识。选 DeepSeek 时保留宿主自己的 DeepSeek 标识并画成 DeepSeek 蓝，整套配色换成蓝色系（亮色为淡天蓝的亮白，暗色为蓝黑），输入框上的像素螃蟹换成小鲸鱼 Deepy。",
-      "en": "The brand mark in the sidebar and on the home page. DeepSeek keeps the host's own DeepSeek mark in DeepSeek blue, turns the whole palette blue (a sky-tinted white in light, a blue-black in dark) and puts Deepy the pixel whale on the composer in place of the crab."
+      "en": "The brand mark in the sidebar and on the home page. DeepSeek keeps the host's own DeepSeek mark in DeepSeek blue, turns the whole palette blue (a sky-tinted white in light, a blue-black in dark) and puts Deepy the pixel whale on the composer in place of the crab.",
+      "ru": "Фирменный знак в боковой панели и на главной странице. DeepSeek сохраняет собственный знак DeepSeek приложения в фирменном синем, переводит всю палитру в синие тона (в светлой теме — небесно-белый, в тёмной — сине-чёрный) и ставит пиксельного кита Дипи на поле ввода вместо краба."
     },
     "collapseTitle": {
       "zh": "重绘设置弹层",
-      "en": "Collapse the sidebar settings area"
+      "en": "Collapse the sidebar settings area",
+      "ru": "Свернуть область настроек боковой панели"
     },
     "collapseDesc": {
       "zh": "把侧栏底栏的设置入口收进账户弹层。",
-      "en": "Fold the sidebar footer's settings entry into the account popover. Off hands the footer back to the host entirely: no account row, no mirrored popover entries."
+      "en": "Fold the sidebar footer's settings entry into the account popover. Off hands the footer back to the host entirely: no account row, no mirrored popover entries.",
+      "ru": "Сворачивает пункт настроек из нижней части боковой панели во всплывающую панель аккаунта. При выключении нижняя часть полностью возвращается приложению: ни строки аккаунта, ни зеркальных пунктов всплывающей панели."
     },
     "autoPopoverTitle": {
       "zh": "自动弹出弹层",
-      "en": "Open popovers on hover"
+      "en": "Open popovers on hover",
+      "ru": "Открывать всплывающие панели при наведении"
     },
     "autoPopoverDesc": {
       "zh": "哪些弹层悬停即展开。「仅账号区」只让侧栏账户弹层这样；「全部」再加上权限、模型、会话统计与首页的目录/预设。",
-      "en": "Which popovers hover opens. \"Account only\" keeps it to the sidebar account popover; \"All\" adds the permission, model, session-stats and the home page's workspace and preset pickers."
+      "en": "Which popovers hover opens. \"Account only\" keeps it to the sidebar account popover; \"All\" adds the permission, model, session-stats and the home page's workspace and preset pickers.",
+      "ru": "Какие всплывающие панели открываются при наведении. «Только аккаунт» ограничивает это панелью аккаунта в боковой панели; «Все» добавляет панели разрешений, выбора модели и статистики сессий, а на главной странице — выборы рабочей области и пресетов."
     },
     "autoPopoverOff": {
       "zh": "关闭",
-      "en": "Off"
+      "en": "Off",
+      "ru": "Выключено"
     },
     "autoPopoverAccount": {
       "zh": "仅账号区",
-      "en": "Account only"
+      "en": "Account only",
+      "ru": "Только аккаунт"
     },
     "autoPopoverAll": {
       "zh": "全部",
-      "en": "All"
+      "en": "All",
+      "ru": "Все"
     },
     "composerTitle": {
       "zh": "对话框样式改动范围",
-      "en": "Composer restyle"
+      "en": "Composer restyle",
+      "ru": "Переоформление поля ввода"
     },
     "composerDesc": {
       "zh": "重绘输入区，可选新会话页、对话内或两者。",
-      "en": "Which input area the skin restyles: the new-conversation page, the conversation, or both. The hero brand mark and headline are unaffected."
+      "en": "Which input area the skin restyles: the new-conversation page, the conversation, or both. The hero brand mark and headline are unaffected.",
+      "ru": "Какую область ввода переоформляет тема: страницу нового диалога, сам диалог или обе. Фирменный знак и заголовок на главной странице не затрагиваются."
     },
     "homeTitle": {
       "zh": "首页版面",
-      "en": "Home layout"
+      "en": "Home layout",
+      "ru": "Макет главной страницы"
     },
     "homeDesc": {
       "zh": "新会话页的排布：「经典」是居中大标题加输入卡片；「工作台」把标题移到左上、输入卡片贴住窗口底部，中间显示用量统计。",
-      "en": "The new-conversation page: the centered hero, or the dashboard form with the greeting at the top left, the composer at the bottom edge and the usage panel in between."
+      "en": "The new-conversation page: the centered hero, or the dashboard form with the greeting at the top left, the composer at the bottom edge and the usage panel in between.",
+      "ru": "Страница нового диалога: классический вид с приветствием по центру или рабочий стол — приветствие слева вверху, поле ввода у нижнего края, между ними панель статистики использования."
     },
     "homeClassic": {
       "zh": "经典",
-      "en": "Classic"
+      "en": "Classic",
+      "ru": "Классический"
     },
     "homeStudio": {
       "zh": "工作台",
-      "en": "Studio"
+      "en": "Studio",
+      "ru": "Студия"
     },
     "pickerTitle": {
       "zh": "重做模型选择器",
-      "en": "Redraw the model picker"
+      "en": "Redraw the model picker",
+      "ru": "Перерисовать выбор модели"
     },
     "pickerDesc": {
       "zh": "把输入框的模型席位换成 Claude 风格的两级弹层。关闭后交回系统自己的模型菜单，输入区其余改动不受影响。",
-      "en": "Replace the composer's model seat with the two-level Claude-style menu. Off hands the model menu back to the host; the rest of the composer restyle is unaffected."
+      "en": "Replace the composer's model seat with the two-level Claude-style menu. Off hands the model menu back to the host; the rest of the composer restyle is unaffected.",
+      "ru": "Заменяет место модели в поле ввода двухуровневым меню в стиле Claude. При выключении меню моделей возвращается приложению; остальное переоформление поля ввода не затрагивается."
     },
     "quickTitle": {
       "zh": "快捷供应商",
-      "en": "Quick providers"
+      "en": "Quick providers",
+      "ru": "Быстрые поставщики"
     },
     "quickDesc": {
       "zh": "官方服务始终列在一级弹层最前面，不在这份清单里；勾选的供应商跟在它后面，各自的模型之间用一条横线分隔。已被移除的供应商会留在清单里，带「已移除」标记，取消勾选即可清除。",
-      "en": "The official service always leads the picker's first level and is not listed here; picked providers follow it, one rule between providers. A provider removed from the catalog stays in the list, marked \"Removed\", and can be unchecked to clear it."
+      "en": "The official service always leads the picker's first level and is not listed here; picked providers follow it, one rule between providers. A provider removed from the catalog stays in the list, marked \"Removed\", and can be unchecked to clear it.",
+      "ru": "Официальный сервис всегда идёт первым в выборе модели и здесь не указан; выбранные поставщики следуют за ним, отделённые чертой. Поставщик, удалённый из каталога, остаётся в списке с пометкой «Удалён» — снимите галочку, чтобы убрать его."
     },
     "quickNone": {
       "zh": "未选择",
-      "en": "None"
+      "en": "None",
+      "ru": "Не выбрано"
     },
     "quickCount": {
       "zh": "{count} 个供应商",
-      "en": "{count} providers"
+      "en": "{count} providers",
+      "ru": "{count} поставщиков"
     },
     "quickLoading": {
       "zh": "正在加载模型目录…",
-      "en": "Loading providers…"
+      "en": "Loading providers…",
+      "ru": "Загрузка поставщиков…"
     },
     "quickRemoved": {
       "zh": "已移除",
-      "en": "Removed"
+      "en": "Removed",
+      "ru": "Удалён"
     },
     "usernameTitle": {
       "zh": "用户名",
-      "en": "Username"
+      "en": "Username",
+      "ru": "Имя пользователя"
     },
     "usernameDesc": {
       "zh": "显示在新会话欢迎语与账号行中；留空则依次使用官方账号昵称、HDSL 启动器昵称、本机系统用户名。",
-      "en": "Shown in the new-conversation greeting and the account row. Leave empty to use the signed-in account name, then the HDSL launcher's account name, then the local system user."
+      "en": "Shown in the new-conversation greeting and the account row. Leave empty to use the signed-in account name, then the HDSL launcher's account name, then the local system user.",
+      "ru": "Показывается в приветствии нового диалога и в строке аккаунта. Оставьте пустым, чтобы использовать имя вошедшего аккаунта, затем имя аккаунта лаунчера HDSL, затем имя локального пользователя системы."
     },
     "usernamePlaceholder": {
       "zh": "自动解析账号或系统用户",
-      "en": "Auto-detect account or host user"
+      "en": "Auto-detect account or host user",
+      "ru": "Определить аккаунт или пользователя приложения автоматически"
     },
     "brandDeepseek": {
       "zh": "DeepSeek",
-      "en": "DeepSeek"
+      "en": "DeepSeek",
+      "ru": "DeepSeek"
     },
     "brandClaude": {
       "zh": "Claude",
-      "en": "Claude"
+      "en": "Claude",
+      "ru": "Claude"
     },
     "motionTitle": {
       "zh": "动画效果",
-      "en": "Animation"
+      "en": "Animation",
+      "ru": "Анимация"
     },
     "motionDesc": {
       "zh": "「随系统」跟随 Windows 自己的「显示动画」设置；「减弱」无论系统怎么设置都把动画停在代表帧上；「总是」无论系统怎么设置都播放动画。后台任务的转圈在三种设置下都照常转动——停住的圈读起来像坏了，而不是安静。",
-      "en": "Follow the system keeps Windows' own \"show animations\" setting in charge. Reduced holds every animation on its still frame whatever the system says, and Always plays them whatever the system says; the background-work ring turns in every setting, since a still ring reads as broken rather than as calm."
+      "en": "Follow the system keeps Windows' own \"show animations\" setting in charge. Reduced holds every animation on its still frame whatever the system says, and Always plays them whatever the system says; the background-work ring turns in every setting, since a still ring reads as broken rather than as calm.",
+      "ru": "«Следовать системе» оставляет решение за настройкой Windows «Показывать анимацию». «Уменьшенная» останавливает каждую анимацию на статичном кадре, «Всегда» проигрывает её независимо от системы; кольцо фоновых задач крутится при любой настройке — неподвижное кольцо выглядит сломанным, а не спокойным."
     },
     "motionSystem": {
       "zh": "随系统",
-      "en": "Follow the system"
+      "en": "Follow the system",
+      "ru": "Следовать системе"
     },
     "motionReduced": {
       "zh": "减弱",
-      "en": "Reduced"
+      "en": "Reduced",
+      "ru": "Уменьшенная"
     },
     "motionFull": {
       "zh": "总是",
-      "en": "Always"
+      "en": "Always",
+      "ru": "Всегда"
     },
     "scopeOff": {
       "zh": "关闭",
-      "en": "Off"
+      "en": "Off",
+      "ru": "Выключено"
     },
     "scopeHero": {
       "zh": "仅首页",
-      "en": "Home only"
+      "en": "Home only",
+      "ru": "Только главная"
     },
     "scopeConversation": {
       "zh": "仅对话",
-      "en": "Conversation only"
+      "en": "Conversation only",
+      "ru": "Только диалог"
     },
     "scopeAll": {
       "zh": "全部",
-      "en": "All"
+      "en": "All",
+      "ru": "Везде"
     },
     "banLocaleTitle": {
       "zh": "封号彩蛋语言",
-      "en": "Account-hold easter egg language"
+      "en": "Account-hold easter egg language",
+      "ru": "Язык пасхалки блокировки аккаунта"
     },
     "banLocaleDesc": {
       "zh": "账户横条彩蛋（点侧栏底栏账户弹层顶部那行用户名）里那页封号界面使用的语言。它是独立设置，不跟随界面语言——那页是 Claude 的原界面，按它本来的语言读才对。",
-      "en": "The language the account-hold page is written in (click the account row at the top of the sidebar footer's popover). It is its own choice rather than following the interface language: the page reproduces Claude's own screen, so it reads the way Claude wrote it."
+      "en": "The language the account-hold page is written in (click the account row at the top of the sidebar footer's popover). It is its own choice rather than following the interface language: the page reproduces Claude's own screen, so it reads the way Claude wrote it.",
+      "ru": "Язык страницы блокировки аккаунта (открывается кликом по строке аккаунта вверху всплывающей панели внизу боковой панели). Это самостоятельная настройка, не зависящая от языка интерфейса: страница воспроизводит оригинальный экран Claude и читается так, как её написал Claude."
     },
     "banLocaleZh": {
       "zh": "中文",
@@ -716,7 +891,8 @@
     },
     "unavailable": {
       "zh": "设置存储不可用，改动不会被保存。",
-      "en": "The settings store is unavailable, so changes will not be saved."
+      "en": "The settings store is unavailable, so changes will not be saved.",
+      "ru": "Хранилище настроек недоступно, изменения не будут сохранены."
     }
   },
   "ban": {
@@ -792,83 +968,103 @@
   "exact": {
     "deepseek-flash": {
       "zh": "非对称模型结构，小成本大智能。",
-      "en": "Asymmetric architecture: more intelligence, less cost."
+      "en": "Asymmetric architecture: more intelligence, less cost.",
+      "ru": "Асимметричная архитектура: больше интеллекта, меньше затрат."
     },
     "claude-opus-4.8": {
       "zh": "1M 上下文、$5/$25 每百万 token；官网已标为 Legacy。",
-      "en": "1M context at $5/$25 per MTok; now marked Legacy upstream."
+      "en": "1M context at $5/$25 per MTok; now marked Legacy upstream.",
+      "ru": "Контекст 1M, $5/$25 за миллион токенов; у производителя уже помечен как Legacy."
     },
     "claude-sonnet-5": {
       "zh": "性能接近 Opus 4.8，$2/$10 每百万 token。",
-      "en": "Performance close to Opus 4.8 at $2/$10 per MTok."
+      "en": "Performance close to Opus 4.8 at $2/$10 per MTok.",
+      "ru": "Производительность близка к Opus 4.8, $2/$10 за миллион токенов."
     },
     "gpt-5.4": {
       "zh": "面向编程与专业工作，1.05M 上下文、原生 computer use（电脑操控）。",
-      "en": "For coding and professional work, with a 1.05M-token context and native computer use."
+      "en": "For coding and professional work, with a 1.05M-token context and native computer use.",
+      "ru": "Для программирования и профессиональной работы: контекст 1,05M токенов и встроенное управление компьютером."
     },
     "gemini-3.8-flash": {
       "zh": "面向复杂智能体任务，限时 $0.75/$3.75 每百万 token。",
-      "en": "For complex agentic tasks at scale, with limited-time pricing of $0.75/$3.75 per MTok."
+      "en": "For complex agentic tasks at scale, with limited-time pricing of $0.75/$3.75 per MTok.",
+      "ru": "Для сложных агентных задач в масштабе; временная цена $0,75/$3,75 за миллион токенов."
     },
     "glm-5.3": {
       "zh": "面向编程与长程自主任务，1M 上下文、128K 输出；仅靠后训练成为最强开放权重编程模型。",
-      "en": "For coding and long-horizon autonomy: 1M context, 128K output, and post-training alone makes it the most capable open-weight coding model."
+      "en": "For coding and long-horizon autonomy: 1M context, 128K output, and post-training alone makes it the most capable open-weight coding model.",
+      "ru": "Для программирования и длительных автономных задач: контекст 1M, вывод 128K — одно постобучение делает её сильнейшей открытой моделью для кода."
     },
     "glm-5.3-flash": {
       "zh": "原生多模态，320B/18B MoE、1M 上下文、MIT 开源，$0.045/任务。",
-      "en": "Natively multimodal, with 320B/18B MoE, 1M context and MIT licensing at $0.045 per task."
+      "en": "Natively multimodal, with 320B/18B MoE, 1M context and MIT licensing at $0.045 per task.",
+      "ru": "Нативно мультимодальная: MoE 320B/18B, контекст 1M, лицензия MIT, $0,045 за задачу."
     },
     "glm-5.3-flashx": {
       "zh": "高吞吐版本，推理速度 200 tokens/s。",
-      "en": "A high-throughput variant running at 200 tokens/s."
+      "en": "A high-throughput variant running at 200 tokens/s.",
+      "ru": "Высокопроизводительный вариант со скоростью 200 токенов/с."
     },
     "kimi-k3": {
       "zh": "面向编程与知识工作的 2.8T 开放权重模型。",
-      "en": "An open-weight 2.8T model for coding and knowledge work."
+      "en": "An open-weight 2.8T model for coding and knowledge work.",
+      "ru": "Открытая модель на 2,8T параметров для программирования и интеллектуальной работы."
     },
     "kimi-for-coding": {
       "zh": "面向长程编程的开放权重智能体模型，1T/32B、256K 上下文。",
-      "en": "An open-weight agentic coding model for long-horizon work, 1T/32B with 256K context."
+      "en": "An open-weight agentic coding model for long-horizon work, 1T/32B with 256K context.",
+      "ru": "Открытая агентная модель для длительного программирования: 1T/32B, контекст 256K."
     },
     "kimi-for-coding-highspeed": {
       "zh": "高速版，输出约 180 tokens/s，为常规版的 5–6 倍，单价 2 倍。",
-      "en": "A high-speed variant at about 180 tokens/s, 5–6x the regular tier, for 2x the price."
+      "en": "A high-speed variant at about 180 tokens/s, 5–6x the regular tier, for 2x the price.",
+      "ru": "Скоростной вариант: около 180 токенов/с, в 5–6 раз быстрее обычного, по двойной цене."
     },
     "qwen3.8-max": {
       "zh": "面向编程与办公，2.4 万亿参数 MoE，1M 上下文、思考模式与内置工具。",
-      "en": "A 2.4T-parameter MoE for coding and office work, with 1M context, thinking mode and built-in tools."
+      "en": "A 2.4T-parameter MoE for coding and office work, with 1M context, thinking mode and built-in tools.",
+      "ru": "MoE на 2,4T параметров для программирования и офисных задач: контекст 1M, режим размышления и встроенные инструменты."
     },
     "step-5-preview": {
       "zh": "面向编程与专业知识工作，原生图文视频输入，1M 上下文。",
-      "en": "For programming and professional knowledge work, with native text, image and video input and a 1M-token context."
+      "en": "For programming and professional knowledge work, with native text, image and video input and a 1M-token context.",
+      "ru": "Для программирования и профессиональной интеллектуальной работы: нативный ввод текста, изображений и видео, контекст 1M токенов."
     },
     "step-3.7-flash": {
       "zh": "面向智能体与代码任务，198B/11B 稀疏 MoE，图像与视频理解，256K 上下文，最高 400 tokens/s。",
-      "en": "For agentic and coding tasks: 198B/11B sparse MoE with image and video understanding, 256K context, up to 400 tokens/s."
+      "en": "For agentic and coding tasks: 198B/11B sparse MoE with image and video understanding, 256K context, up to 400 tokens/s.",
+      "ru": "Для агентных задач и программирования: разреженная MoE 198B/11B с пониманием изображений и видео, контекст 256K, до 400 токенов/с."
     },
     "minimax-m3": {
       "zh": "首个集前沿编程、1M 上下文与原生多模态于一身的开放权重模型。",
-      "en": "The first open-weight model combining frontier coding, 1M context and native multimodality."
+      "en": "The first open-weight model combining frontier coding, 1M context and native multimodality.",
+      "ru": "Первая открытая модель, сочетающая передовое программирование, контекст 1M и нативную мультимодальность."
     },
     "grok-4.5": {
       "zh": "面向编程、智能体与知识工作，80 tokens/s，$2/$6 每百万 token；官网已有更新的 4.6。",
-      "en": "Built for coding, agentic and knowledge work at 80 tokens/s for $2/$6 per MTok; a newer Grok 4.6 is out."
+      "en": "Built for coding, agentic and knowledge work at 80 tokens/s for $2/$6 per MTok; a newer Grok 4.6 is out.",
+      "ru": "Для программирования, агентных и интеллектуальных задач: 80 токенов/с, $2/$6 за миллион токенов; у производителя уже есть более новая Grok 4.6."
     },
     "doubao-seed-2.1": {
       "zh": "分 Pro 与 Turbo 两档的新一代生产力智能体，以通用任务与代码见长。",
-      "en": "Pro and Turbo tiers of a next-generation productivity agent, strong at general agentic and coding tasks."
+      "en": "Pro and Turbo tiers of a next-generation productivity agent, strong at general agentic and coding tasks.",
+      "ru": "Линейки Pro и Turbo агента продуктивности нового поколения: силён в общих агентных задачах и программировании."
     },
     "ernie-5.0": {
       "zh": "2.4 万亿参数原生全模态，超稀疏 MoE 每 token 仅激活约 3%，上下文扩至 128K。",
-      "en": "2.4T-parameter native omni-modal, ultra-sparse MoE activating under 3% of parameters per token, 128K context."
+      "en": "2.4T-parameter native omni-modal, ultra-sparse MoE activating under 3% of parameters per token, 128K context.",
+      "ru": "Нативно омнимодальная модель на 2,4T параметров, сверхразреженная MoE активирует меньше 3% параметров на токен, контекст 128K."
     },
     "mistral-large-3": {
       "zh": "Apache 2.0 开放权重多模态模型，细粒度 MoE，675B 总参 / 41B 激活，256K 上下文。",
-      "en": "Apache-2.0 open-weight multimodal MoE with 675B total / 41B active parameters and 256K context."
+      "en": "Apache-2.0 open-weight multimodal MoE with 675B total / 41B active parameters and 256K context.",
+      "ru": "Открытая мультимодальная MoE под Apache 2.0: 675B всего / 41B активных параметров, контекст 256K."
     },
     "celeris-1": {
       "zh": "生成速度 1,664 tokens/s，超过 Mercury 2 的 5 倍，MMLU-Pro 75.9%。",
-      "en": "Generates 1,664 tokens/s, over 5x Mercury 2, at 75.9% MMLU-Pro."
+      "en": "Generates 1,664 tokens/s, over 5x Mercury 2, at 75.9% MMLU-Pro.",
+      "ru": "Генерирует 1 664 токенов/с — более чем в 5 раз быстрее Mercury 2, MMLU-Pro 75,9%."
     }
   },
   "aliases": {
@@ -1039,7 +1235,8 @@
       "note": "The Pro line's own official heading on the V4 preview page. No exact entry pins it: a Pro is a Pro whatever its version.",
       "text": {
         "zh": "性能比肩顶级闭源模型。",
-        "en": "Performance rivaling the world's top closed-source models."
+        "en": "Performance rivaling the world's top closed-source models.",
+        "ru": "Производительность на уровне лучших закрытых моделей мира."
       }
     },
     {
@@ -1047,7 +1244,8 @@
       "note": "Everything else in the line — V3.2, R1, and whatever comes next — shares the V4.1 release title.",
       "text": {
         "zh": "更强、更快、更普惠。",
-        "en": "Smarter, faster, more affordable."
+        "en": "Smarter, faster, more affordable.",
+        "ru": "Умнее, быстрее, доступнее."
       }
     },
     {
@@ -1055,7 +1253,8 @@
       "note": "Fable is a model line of its own (Mythos / Fable / Opus / Sonnet / Haiku), so it must not fall through to the generic Claude rule. Its copy is the line tagline from anthropic.com/claude/fable, and it carries no tier prefix of ours.",
       "text": {
         "zh": "新一代智能，专为解决最艰深的知识工作和编程难题。",
-        "en": "Next generation of intelligence for the hardest knowledge work and coding problems."
+        "en": "Next generation of intelligence for the hardest knowledge work and coding problems.",
+        "ru": "Новое поколение интеллекта для сложнейших задач интеллектуальной работы и программирования."
       }
     },
     {
@@ -1063,7 +1262,8 @@
       "note": "Mythos is Fable's unrestricted sibling — Anthropic's own words: Fable is the same underlying model with cybersecurity and biology safeguards added. Access to Mythos is limited to vetted organizations, so its copy leads with the audience rather than the capability.",
       "text": {
         "zh": "面向网络安全与生物学研究，仅经审核的组织可访问。",
-        "en": "Built for cybersecurity and biology research, with access limited to vetted organizations."
+        "en": "Built for cybersecurity and biology research, with access limited to vetted organizations.",
+        "ru": "Создана для исследований в кибербезопасности и биологии; доступ только для проверенных организаций."
       }
     },
     {
@@ -1071,84 +1271,96 @@
       "note": "Family copy stays version-agnostic, so it carries no superlatives: 'strongest' is only true of the current generation and would mislabel an older Opus. Superlatives belong in version-pinned exact entries. It also carries no tier prefix of ours — '旗舰档：' is our positioning, not the model's own line.",
       "text": {
         "zh": "面向严肃编程与 AI 智能体的混合推理模型。",
-        "en": "A hybrid reasoning model built for serious coding and AI agents."
+        "en": "A hybrid reasoning model built for serious coding and AI agents.",
+        "ru": "Гибридная модель рассуждений для серьёзного программирования и ИИ-агентов."
       }
     },
     {
       "match": "claude.*sonnet",
       "text": {
         "zh": "面向实时智能体与高吞吐的混合推理。",
-        "en": "Hybrid reasoning for real-time agents and high-volume work."
+        "en": "Hybrid reasoning for real-time agents and high-volume work.",
+        "ru": "Гибридные рассуждения для агентов реального времени и высоконагруженной работы."
       }
     },
     {
       "match": "claude.*haiku",
       "text": {
         "zh": "面向速度敏感的高吞吐场景，响应快、成本低。",
-        "en": "For speed-sensitive, high-volume workloads at low cost."
+        "en": "For speed-sensitive, high-volume workloads at low cost.",
+        "ru": "Для чувствительных к скорости высоконагруженных сценариев по низкой цене."
       }
     },
     {
       "match": "claude",
       "text": {
         "zh": "Anthropic Claude 模型。",
-        "en": "Anthropic Claude model."
+        "en": "Anthropic Claude model.",
+        "ru": "Модель Anthropic Claude."
       }
     },
     {
       "match": "codex",
       "text": {
         "zh": "为 Codex 智能体编程优化，可并行处理多项软件工程任务。",
-        "en": "Optimized for agentic coding in Codex, handling several software tasks in parallel."
+        "en": "Optimized for agentic coding in Codex, handling several software tasks in parallel.",
+        "ru": "Оптимизирована для агентного программирования в Codex: ведёт несколько задач разработки параллельно."
       }
     },
     {
       "match": "gpt-?5",
       "text": {
         "zh": "内置思考、可配置推理强度，面向编程与智能体任务。",
-        "en": "Thinking built in with configurable reasoning effort, for coding and agentic tasks."
+        "en": "Thinking built in with configurable reasoning effort, for coding and agentic tasks.",
+        "ru": "Встроенное размышление с настраиваемым уровнем рассуждения — для программирования и агентных задач."
       }
     },
     {
       "match": "(^|[/-])o[1-9](-|$)",
       "text": {
         "zh": "作答前深入思考，从 o1 到 o3 与 o4-mini。",
-        "en": "Trained to think more deeply before responding, from o1 through o3 and o4-mini."
+        "en": "Trained to think more deeply before responding, from o1 through o3 and o4-mini.",
+        "ru": "Научена думать глубже перед ответом: от o1 до o3 и o4-mini."
       }
     },
     {
       "match": "gpt-oss|oss-\\d",
       "text": {
         "zh": "开放权重推理模型，Apache 2.0，120B 与 20B 两档，可定制、可自托管。",
-        "en": "Open-weight reasoning models, Apache 2.0, in 120B and 20B sizes, customizable and self-hostable."
+        "en": "Open-weight reasoning models, Apache 2.0, in 120B and 20B sizes, customizable and self-hostable.",
+        "ru": "Открытые модели рассуждений под Apache 2.0, размеры 120B и 20B: настраиваемые, с возможностью самостоятельного размещения."
       }
     },
     {
       "match": "gpt",
       "text": {
         "zh": "支持文本与图像输入、多语言。",
-        "en": "Text and image input, multilingual."
+        "en": "Text and image input, multilingual.",
+        "ru": "Ввод текста и изображений, мультиязычность."
       }
     },
     {
       "match": "gemini.*(pro|ultra)",
       "text": {
         "zh": "面向复杂任务、深度推理与多模态理解。",
-        "en": "For complex tasks, deep reasoning and multimodal understanding."
+        "en": "For complex tasks, deep reasoning and multimodal understanding.",
+        "ru": "Для сложных задач, глубоких рассуждений и мультимодального понимания."
       }
     },
     {
       "match": "gemini.*flash",
       "text": {
         "zh": "速度与成本优先，面向规模化智能体任务与高频低延迟场景。",
-        "en": "Speed and cost first, for high-volume low-latency work and agentic tasks at scale."
+        "en": "Speed and cost first, for high-volume low-latency work and agentic tasks at scale.",
+        "ru": "Скорость и цена прежде всего: для высоконагруженной работы с низкой задержкой и агентных задач в масштабе."
       }
     },
     {
       "match": "gemini",
       "text": {
         "zh": "原生理解文本、图像、视频与音频。",
-        "en": "Native text, image, video and audio understanding."
+        "en": "Native text, image, video and audio understanding.",
+        "ru": "Нативное понимание текста, изображений, видео и аудио."
       }
     },
     {
@@ -1156,7 +1368,8 @@
       "note": "Gemma is Google's open line, not a Gemini tier, so it must not inherit the Gemini rule's copy. Its place below the generic Gemini rule is only for readability: the two patterns cannot overlap.",
       "text": {
         "zh": "源自 Gemini 研究，从云端服务器到手机都能运行。",
-        "en": "Built from the same research as Gemini, running from cloud servers to phones."
+        "en": "Built from the same research as Gemini, running from cloud servers to phones.",
+        "ru": "Создана на тех же исследованиях, что и Gemini: работает от облачных серверов до телефонов."
       }
     },
     {
@@ -1164,7 +1377,8 @@
       "note": "Nano Banana is Gemini's image model with its own catalog identity, so it gets image copy instead of the Gemini text-model line.",
       "text": {
         "zh": "Gemini 图像生成与编辑模型，支持自然语言对话式创建与修改。",
-        "en": "Gemini's image generation and editing model, with conversational creation and refinement."
+        "en": "Gemini's image generation and editing model, with conversational creation and refinement.",
+        "ru": "Модель Gemini для генерации и редактирования изображений: создание и доработка в диалоге."
       }
     },
     {
@@ -1175,14 +1389,16 @@
       "match": "glm.*flash",
       "text": {
         "zh": "更快更省的多模态推理，兼顾长上下文与日常编程。",
-        "en": "Fast, low-cost multimodal inference with long context and everyday coding."
+        "en": "Fast, low-cost multimodal inference with long context and everyday coding.",
+        "ru": "Быстрый и недорогой мультимодальный вывод: длинный контекст и повседневное программирование."
       }
     },
     {
       "match": "glm",
       "text": {
         "zh": "覆盖对话、编程与智能体，支持思考模式与函数调用。",
-        "en": "Covers chat, coding and agents, with thinking mode and function calling."
+        "en": "Covers chat, coding and agents, with thinking mode and function calling.",
+        "ru": "Диалоги, программирование и агенты: режим размышления и вызов функций."
       }
     },
     {
@@ -1197,7 +1413,8 @@
       "match": "kimi",
       "text": {
         "zh": "原生支持文本、图像与视频输入，含思考模式与工具调用。",
-        "en": "Native text, image and video input, with thinking mode and tool calling."
+        "en": "Native text, image and video input, with thinking mode and tool calling.",
+        "ru": "Нативный ввод текста, изображений и видео, режим размышления и вызов инструментов."
       }
     },
     {
@@ -1208,21 +1425,24 @@
       "match": "qwen.*(coder|code)",
       "text": {
         "zh": "开放权重 MoE，面向补全、生成与仓库级修改。",
-        "en": "Open-weight MoE for completion, generation and repo-level edits."
+        "en": "Open-weight MoE for completion, generation and repo-level edits.",
+        "ru": "Открытая MoE для автодополнения, генерации и правок на уровне репозитория."
       }
     },
     {
       "match": "qwen.*(flash|turbo)",
       "text": {
         "zh": "响应快、成本低，工具调用与长上下文支持完整。",
-        "en": "Fast and cheap, with full tool calling and long-context support."
+        "en": "Fast and cheap, with full tool calling and long-context support.",
+        "ru": "Быстрая и недорогая: полная поддержка вызова инструментов и длинного контекста."
       }
     },
     {
       "match": "qwen.*plus",
       "text": {
         "zh": "能力与成本均衡，完整工具调用支持。",
-        "en": "Balanced cost and capability with full tool calling."
+        "en": "Balanced cost and capability with full tool calling.",
+        "ru": "Сбалансированные цена и возможности, полная поддержка вызова инструментов."
       }
     },
     {
@@ -1230,7 +1450,8 @@
       "note": "MoE ids spell out total and active parameters (`2.4t-a95b`, `235b-a22b`); the active count must win over the size rule below, which would otherwise read the trailing `95b` as a small dense model.",
       "text": {
         "zh": "总参大、激活参数少，单位成本低于同规模稠密模型。",
-        "en": "Many total parameters but few active, so it costs less than a dense model of the same size."
+        "en": "Many total parameters but few active, so it costs less than a dense model of the same size.",
+        "ru": "Параметров много, активных — мало: дешевле плотной модели того же размера."
       }
     },
     {
@@ -1238,14 +1459,16 @@
       "note": "Anchored to a separator so the digits start a segment: an unanchored \\d+b matches the `95b` inside `a95b` and calls a 2.4T MoE a small dense model.",
       "text": {
         "zh": "可本地或低成本部署。",
-        "en": "Cheap to serve, or run locally."
+        "en": "Cheap to serve, or run locally.",
+        "ru": "Дёшево в обслуживании — или запускайте локально."
       }
     },
     {
       "match": "qwen",
       "text": {
         "zh": "开放权重与云端 API 并行，覆盖文本、图像、音频与视频。",
-        "en": "Open weights and cloud APIs across text, image, audio and video."
+        "en": "Open weights and cloud APIs across text, image, audio and video.",
+        "ru": "Открытые веса и облачные API для текста, изображений, аудио и видео."
       }
     },
     {
@@ -1260,7 +1483,8 @@
       "match": "step",
       "text": {
         "zh": "覆盖文本推理、多模态与语音，经官方开放平台提供。",
-        "en": "Reasoning, multimodal understanding and voice, served through the official open platform."
+        "en": "Reasoning, multimodal understanding and voice, served through the official open platform.",
+        "ru": "Рассуждения, мультимодальное понимание и голос через официальную открытую платформу."
       }
     },
     {
@@ -1271,7 +1495,8 @@
       "match": "minimax|(^|-)m2[-.]?\\d",
       "text": {
         "zh": "主打智能体推理、工具调用、编程与多模态输入，面向长上下文任务。",
-        "en": "Agentic reasoning, tool use, coding and multimodal input for long-context work."
+        "en": "Agentic reasoning, tool use, coding and multimodal input for long-context work.",
+        "ru": "Агентные рассуждения, использование инструментов, программирование и мультимодальный ввод для работы с длинным контекстом."
       }
     },
     {
@@ -1279,7 +1504,8 @@
       "note": "Meta Superintelligence Labs' Muse line, separate from the Llama open-weight line — it must not inherit the Llama rule's copy.",
       "text": {
         "zh": "小而快、原生多模态推理，驱动 Meta AI。",
-        "en": "Small and fast by design, natively multimodal, powering Meta AI."
+        "en": "Small and fast by design, natively multimodal, powering Meta AI.",
+        "ru": "Небольшая и быстрая по задумке, нативно мультимодальная — на ней работает Meta AI."
       }
     },
     {
@@ -1287,112 +1513,128 @@
       "note": "Diffusion LLM, so the copy leads with latency rather than the usual capability framing. The Celeris-1 numbers live in the pinned exact entry so a future Celeris does not inherit them.",
       "text": {
         "zh": "扩散架构大语言模型，主打超低延迟生成。",
-        "en": "Diffusion-architecture LLMs built for ultra-low-latency generation."
+        "en": "Diffusion-architecture LLMs built for ultra-low-latency generation.",
+        "ru": "LLM диффузионной архитектуры для генерации со сверхнизкой задержкой."
       }
     },
     {
       "match": "mercury-?\\d|inception",
       "text": {
         "zh": "面向代码生成，H100 上超 1,000 tokens/s，速度最高为同类模型的 10 倍。",
-        "en": "Built for code, over 1,000 tokens/s on H100, up to 10x faster than speed-optimized LLMs."
+        "en": "Built for code, over 1,000 tokens/s on H100, up to 10x faster than speed-optimized LLMs.",
+        "ru": "Создана для кода: более 1 000 токенов/с на H100, до 10 раз быстрее скоростных LLM."
       }
     },
     {
       "match": "apodex",
       "text": {
         "zh": "面向复杂专业工作、金融与科研，1.1 mini 为 35B、可本地部署。",
-        "en": "For complex professional work, finance and science; the 35B 1.1 mini runs locally."
+        "en": "For complex professional work, finance and science; the 35B 1.1 mini runs locally.",
+        "ru": "Для сложной профессиональной работы, финансов и науки; 1.1 mini на 35B запускается локально."
       }
     },
     {
       "match": "motif",
       "text": {
         "zh": "MIT 许可，314B 总参 / 13.2B 激活，256K 上下文。",
-        "en": "MIT-licensed, 314B total / 13.2B active, 256K context."
+        "en": "MIT-licensed, 314B total / 13.2B active, 256K context.",
+        "ru": "Лицензия MIT, 314B всего / 13,2B активных, контекст 256K."
       }
     },
     {
       "match": "grok",
       "text": {
         "zh": "覆盖编程、智能体与知识工作，API 支持多模态输入。",
-        "en": "Coding, agentic tasks and knowledge work, with multimodal API input."
+        "en": "Coding, agentic tasks and knowledge work, with multimodal API input.",
+        "ru": "Программирование, агентные и интеллектуальные задачи, мультимодальный ввод через API."
       }
     },
     {
       "match": "doubao|seed-?\\d|volc",
       "text": {
         "zh": "经 50+ 内部业务场景验证，每日千亿级 token 用量打磨，支持多模态。",
-        "en": "Validated across 50+ internal scenarios and hundreds of billions of daily tokens, with multimodal support."
+        "en": "Validated across 50+ internal scenarios and hundreds of billions of daily tokens, with multimodal support.",
+        "ru": "Проверена в 50+ внутренних сценариях и сотнях миллиардов ежедневных токенов, с поддержкой мультимодальности."
       }
     },
     {
       "match": "ernie",
       "text": {
         "zh": "产业级知识增强，支持中文理解与多模态生成。",
-        "en": "Industry-grade knowledge enhancement, with Chinese understanding and multimodal generation."
+        "en": "Industry-grade knowledge enhancement, with Chinese understanding and multimodal generation.",
+        "ru": "Промышленное усиление знаний: понимание китайского языка и мультимодальная генерация."
       }
     },
     {
       "match": "hunyuan|(^|-)hy\\d",
       "text": {
         "zh": "中文理解与智能体场景表现均衡。",
-        "en": "Balanced for Chinese language and agentic scenarios."
+        "en": "Balanced for Chinese language and agentic scenarios.",
+        "ru": "Сбалансирована для китайского языка и агентных сценариев."
       }
     },
     {
       "match": "codestral",
       "text": {
         "zh": "面向补全、FIM 与生成，128K 上下文。",
-        "en": "Built for completion, FIM and generation, with 128K context."
+        "en": "Built for completion, FIM and generation, with 128K context.",
+        "ru": "Для автодополнения, FIM и генерации, контекст 128K."
       }
     },
     {
       "match": "mistral|magistral",
       "text": {
         "zh": "从云端到边缘的前沿模型，开放权重与商用并行，可 API 调用或自托管。",
-        "en": "Frontier models from cloud to edge, open-weight and commercial, via API or self-hosting."
+        "en": "Frontier models from cloud to edge, open-weight and commercial, via API or self-hosting.",
+        "ru": "Передовые модели от облака до края: открытые веса и коммерческие версии, через API или самостоятельное размещение."
       }
     },
     {
       "match": "llama",
       "text": {
         "zh": "可自由微调、蒸馏并部署到任何环境。",
-        "en": "Fine-tune, distill and deploy it anywhere."
+        "en": "Fine-tune, distill and deploy it anywhere.",
+        "ru": "Дообучайте, дистиллируйте и разворачивайте где угодно."
       }
     },
     {
       "match": "north",
       "text": {
         "zh": "整合大模型、搜索与自动化成一个企业级安全工作空间。",
-        "en": "LLMs, search and automation combined into one secure enterprise workspace."
+        "en": "LLMs, search and automation combined into one secure enterprise workspace.",
+        "ru": "LLM, поиск и автоматизация в одном защищённом корпоративном рабочем пространстве."
       }
     },
     {
       "match": "command-?[ar]|cohere",
       "text": {
         "zh": "面向工具调用、RAG 与多语言，Command A 为 111B/256K。",
-        "en": "For tool use, RAG and multilingual work; Command A is 111B with 256K context."
+        "en": "For tool use, RAG and multilingual work; Command A is 111B with 256K context.",
+        "ru": "Для использования инструментов, RAG и мультиязычной работы; Command A — 111B с контекстом 256K."
       }
     },
     {
       "match": "phi-?\\d",
       "text": {
         "zh": "面向边缘与本地部署，Phi-4 以 14B 专注推理、数学与代码。",
-        "en": "For edge and local use; Phi-4 (14B) targets reasoning, math and code."
+        "en": "For edge and local use; Phi-4 (14B) targets reasoning, math and code.",
+        "ru": "Для краевых и локальных устройств; Phi-4 (14B) нацелена на рассуждения, математику и код."
       }
     },
     {
       "match": "nova",
       "text": {
         "zh": "Micro/Lite/Pro/Premier 四档，支持文本、图像与视频输入。",
-        "en": "Micro, Lite, Pro and Premier tiers taking text, image and video."
+        "en": "Micro, Lite, Pro and Premier tiers taking text, image and video.",
+        "ru": "Линейки Micro, Lite, Pro и Premier принимают текст, изображения и видео."
       }
     },
     {
       "match": "sonar|perplexity",
       "text": {
         "zh": "结合实时网络信息与引用的搜索 API，从轻量 Sonar 到多步深研 Sonar Pro。",
-        "en": "Search APIs answering with fresh web data and citations, from light Sonar to deep-research Sonar Pro."
+        "en": "Search APIs answering with fresh web data and citations, from light Sonar to deep-research Sonar Pro.",
+        "ru": "Поисковые API с ответами на свежих веб-данных и цитатами: от лёгкого Sonar до исследовательского Sonar Pro."
       }
     }
   ],
@@ -1401,14 +1643,16 @@
       "match": "flash|mini|lite|nano|turbo|air|small|swift|highspeed|fast|instant",
       "text": {
         "zh": "响应快、成本低，适合简单或高频任务。",
-        "en": "Fast and cheap, for simple or high-frequency tasks."
+        "en": "Fast and cheap, for simple or high-frequency tasks.",
+        "ru": "Быстро и недорого — для простых и частых задач."
       }
     },
     {
       "match": "pro|max|ultra|opus|thinking|reasoner|plus|large|advanced|heavy|frontier",
       "text": {
         "zh": "适合复杂或质量优先的任务，成本更高。",
-        "en": "For complex, quality-first work at higher cost."
+        "en": "For complex, quality-first work at higher cost.",
+        "ru": "Для сложных задач, где важнее качество, — по более высокой цене."
       }
     },
     {
@@ -1416,7 +1660,8 @@
       "note": "MoE active-parameter suffix (`a95b`, `a23b`); tried before the dense rule so the active count is not mistaken for a total.",
       "text": {
         "zh": "总参大、激活参数少，单位成本低于同规模稠密模型。",
-        "en": "Many total parameters but few active, so it costs less than a dense model of the same size."
+        "en": "Many total parameters but few active, so it costs less than a dense model of the same size.",
+        "ru": "Параметров много, активных — мало: дешевле плотной модели того же размера."
       }
     },
     {
@@ -1424,7 +1669,8 @@
       "note": "Anchored so the digits start a segment: unanchored, `a95b` and `a23b` read as small dense models.",
       "text": {
         "zh": "可本地或低成本部署。",
-        "en": "Cheap to serve, or run locally."
+        "en": "Cheap to serve, or run locally.",
+        "ru": "Дёшево в обслуживании — или запускайте локально."
       }
     }
   ]
